@@ -6,6 +6,7 @@ function func(){
     }
 }
 
+/*Function for start/stop button */
 
 function funcstart(d){
     if (d.interval){
@@ -27,7 +28,7 @@ function funcstart(d){
     }
 }
 
-
+/*Function for inc button */
 
 function funcplus() {
     var x = document.getElementById("t1").value;
@@ -36,7 +37,7 @@ function funcplus() {
     document.getElementById("t1").value = val.toString();
 }
 
-
+/*Function for dec button */
 function funcminus() {
     var x = document.getElementById("t1").value;
     var val = parseInt(x);
@@ -44,7 +45,7 @@ function funcminus() {
     document.getElementById("t1").value = val.toString();
 }
 
-
+/*Function for reset button */
 function funcreset(){
     document.getElementById("t1").value = "25";
 }
